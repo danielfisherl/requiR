@@ -1,9 +1,9 @@
 
-#' A loading multiple libraries Function
+#' A loading multiple libraries into r Function
 #'
 #' This function allows you to upload multiple libraries at once
 #' @param The libraries you want to upload. No default.
-#' @keywords 
+#' @keywords
 #' @export
 #' @examples
 #' loadem(c("dplyr","scales"))
