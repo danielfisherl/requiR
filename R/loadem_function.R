@@ -12,5 +12,6 @@
 loadem <- function(libs){
   uploaded<-data.frame(lapply(libs, require, character.only = TRUE)) #Load Libraries
   names(uploaded)<-libs #naming the columns for the data frame
+  return(uploaded) #uploaded libraries
 
 }
